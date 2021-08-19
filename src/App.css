@@ -1,5 +1,54 @@
 .App {
   text-align: center;
+  width: 700px;
+  height: 1000px;
+  background-color: rgba(0,0,0,0.1);
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 2px 5px 10px rgba(0,0,0,0);
+  color: white;
+}
+h1 {
+  font-size: 45px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input, select {
+  display: block;
+  margin: 20px auto;
+  padding: 3px 8px;
+  color: #2f192e;
+  font-size: 25px;
+  font-weight: bold;
+  width: 100%;
+  max-width: 350px;
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px 0px 16px 0px;
+  border-bottom: 3px solid #61dafb;
+  transition: all 0.2s ease-in-out;
+}
+label {
+  cursor: pointer;
+}
+.quti {
+  margin-top: 30px;
+}
+
+label > input {
+  display: inline-flex;
+  transition: all 0.2s ease-in-out;
+  margin: -23%;
+  cursor: pointer;
+
+}
+input:focus, textarea:focus, select:focus {
+  background-color: #fff;
+  color: #2f192e;
+  border-radius: 0px 16px 0px 16px;
+  border-bottom: 3px solid rgb(106, 235, 112);
 }
 
 .App-logo {
@@ -24,7 +73,7 @@
   color: white;
 }
 
-.App-link {
+.App {
   color: #61dafb;
 }
 
@@ -35,4 +84,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+textarea {
+  margin: 20px auto;
+  padding: 3px 8px;
+  color: #2f192e;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px 0px 16px 0px;
+  border-bottom: 3px solid #61dafb;
+  transition: all 0.2s ease-in-out;
+  padding: 10px;
+  width: 365px;
+  height: 150px;
 }
