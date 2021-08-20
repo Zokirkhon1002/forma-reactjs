@@ -101,3 +101,7 @@ textarea {
   width: 365px;
   height: 150px;
 }
+
+a {
+  color: blue;
+}

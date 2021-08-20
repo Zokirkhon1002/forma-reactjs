@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import Forma from './form/Forma';
+import Amaliyot from './form/Amaliyot';
+// import Forma from './form/Forma';
 class Output extends Component {
 
     render() { 
         return ( 
             <div>
-                <Forma />
+                {/* <Forma /> */}
+                <Amaliyot />
             </div>
          );
     }
