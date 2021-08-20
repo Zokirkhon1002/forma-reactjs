@@ -73,7 +73,7 @@ class Amaliyot extends Component {
             checked={isAgreeWithTerms}
             onChange={checkedHandler}
           />
-          Barcha qonun qoidalarga roziman <a href="https://input-speaker.netlify.app">ko'proq o'rganish...</a>
+          Barcha qonun qoidalarga roziman <a href="https://input-speaker.netlify.app">ko'proq o'rganish</a>
         </label>
         <input type="submit" value={value} onClick={this.SaveHandler}></input>
       </div>
